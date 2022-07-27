@@ -52,7 +52,7 @@ public class CmsResourceUtil {
     }
 
     public static String generateResourcePath(CmsObject adminCms, I_CmsResourceType type) {
-        // TODO: generate path for resource
+        // TODO: develop this one test driven!
         return null;
     }
 

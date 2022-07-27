@@ -49,7 +49,7 @@ public class AfterWebform {
      *                  </ul>
      * @return ein {@link Boolean} der aussagt, ob das Objekt erfolgreich erstellt wurde
      */
-    public boolean createOpenCmsObject(CmsJspActionElement jsp, I_CmsResourceType type, Map<String, String> fields) {
+    public boolean createNewCmsResource(CmsJspActionElement jsp, I_CmsResourceType type, Map<String, String> fields) {
         var locale = LOCALE;
         var typeName = type.getTypeName();
         var optionalAdminCms = createAdminCms(jsp, USER_NAME, USER_PASSWORD);
